@@ -38,7 +38,8 @@ test-fastapi_pytest/
 ```bash
 cd backend
 python -m venv venv
-venv\Scripts\activate        # (En Windows)
+venv\Scripts\activate       # (En Windows)
+source .venv/bin/activate   # En Linux/Mac
 pip install -r requirements.txt
 ```
 
@@ -49,7 +50,7 @@ uvicorn main:app --reload
 ```
 
 El backend estará disponible en:
-👉 [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+[http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
 #### Ejecutar los tests del backend
 
