@@ -73,6 +73,7 @@ npm install
 
 ```bash
 npm test
+npm run test:ui
 ```
 
 Vitest ejecutará las pruebas de los componentes React y mostrará los resultados en consola.
